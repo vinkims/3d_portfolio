@@ -23,6 +23,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  java,
+  mysql,
+  postgres,
+  springboot,
 } from "../assets";
 
 export const navLinks = [
@@ -54,12 +58,20 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "DevOps Engineer",
     icon: creator,
   },
 ];
 
 const technologies = [
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "Spring Boot",
+    icon: springboot,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -91,6 +103,14 @@ const technologies = [
   {
     name: "Node JS",
     icon: nodejs,
+  },
+  {
+    name: "PostgreSQL",
+    icon: postgres,
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
   },
   {
     name: "MongoDB",
