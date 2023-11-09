@@ -35,7 +35,7 @@ const About = () => {
     <>
       <motion.div>
         <p className={styles.sectionSubText}>Introduction</p>
-        <p className={styles.sectionHeadText}>Overview.</p>
+        <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
       <motion.p
