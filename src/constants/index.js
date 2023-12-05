@@ -29,6 +29,7 @@ import {
   carrent,
   jobit,
   tripguide,
+  users,
   threejs,
   java,
   mysql,
@@ -157,7 +158,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2018 - Dec 2018",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using JavaScript, React.js, HTML and CSS.",
       "Integrating third-party APIs to web and mobile applications.",
       "Employing SQL and NoSQL databases including MySQL, PostgreSQL and MongoDB.",
       "Optimizing application performance through code splitting, lazy loading and data caching.",
@@ -282,6 +283,27 @@ const projects = [
     image: tripguide,
     source_code_link: "https://github.com/",
   },
+  {
+    name: "Users API",
+    description: 
+      "A CRUD application that shows how to host a Spring Boot PostgreSQL application on Amazon EC2.",
+    tags: [
+      {
+        name: "spring-boot",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "postgresql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "aws",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: users,
+    source_code_link: "https://github.com/vinkims/users_api"
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };

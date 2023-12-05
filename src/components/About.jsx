@@ -42,10 +42,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software engineer with experience in Java, JavaScript and TypeScript,
-        and expertise in frameworks like Spring Boot, React, React Native and Node.js. I collaborate
-        closely with clients to create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's consider working together to bring your ideas to life!
+        I'm a Software Engineer with experience spanning Java, JavaScript, React, Spring Boot, Docker, 
+        GitHub Actions, Jenkins and AWS. Proficient in both front-end and back-end development, I 
+        specialize in building scalable applications and creating seamless user experiences.
+        Let's innovate, create and build remarkable solutions together.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-20">
